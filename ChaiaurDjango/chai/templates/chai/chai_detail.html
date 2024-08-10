@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+
+{% block title %}Chai Detail{% endblock %}
+
+{% block content %}
+<h1 class="text-3xl bg-yellow-500">Chai Detail Page</h1>
+
+<div class="grid grid-rows-2 gap-4 m-4 p-5">
+
+    <h3>{{chai.name}}</h3>
+    <p>{{chai.description}}</p>
+
+</div>
+{% endblock content %}
